@@ -24,16 +24,16 @@ public class ArticlepadBackendApplication {
 //			// create a new book
 ////			Book book = new Book("Java 101", "John Doe", "123456");
 //			User user = new User();
-//			user.setFirstName("Anna");
-//			user.setLastName("Marnie");
-//			user.setEmail("annamarnie@gmail.com");
+//			user.setFirstName("Adam");
+//			user.setLastName("Henry");
+//			user.setEmail("adamhenry@gmail.com");
+//			user.setPassword("Fly_1107!@");
 //
 //			userRepository.save(user);
 //
 //			// create and save new article
-//			articleRepository.save(new Article("Cosmos", "Introduction to cosmos", user));
-//			articleRepository.save(new Article("Java", "One of the programming language", user));
-//			articleRepository.save(new Article("Planes", "Catalog for planes", user));
+//			articleRepository.save(new Article("Physics", "Introduction to physics", user));
+//			articleRepository.save(new Article("Spring Framework", "Essantials for Spring and Spring Boot", user));
 //		};
 //	}
 }

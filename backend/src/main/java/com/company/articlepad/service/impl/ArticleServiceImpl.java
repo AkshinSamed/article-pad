@@ -1,6 +1,7 @@
 package com.company.articlepad.service.impl;
 
 import com.company.articlepad.model.Article;
+import com.company.articlepad.model.User;
 import com.company.articlepad.repository.ArticleRepository;
 import com.company.articlepad.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,4 +19,11 @@ public class ArticleServiceImpl implements ArticleService {
     public List<Article> getAllArticles() {
         return articleRepository.findAll();
     }
+
+    @Override
+    public List<Article> getAllArticlesByUser(User user) {
+        return user.getArticleList();
+    }
+
+
 }
